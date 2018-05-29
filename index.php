@@ -21,7 +21,7 @@
         <script>
             var pseudo = '';
 
-            _poller.init('https://pollerjs.herokuapp.com/', function () {
+            _poller.init('https://pollerjs.herokuapp.com/server/', function () {
                 _poller.start();
 
                 _poller.on('hello', function (datas) {
